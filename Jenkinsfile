@@ -3,10 +3,10 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'
-        DOCKER_IMAGE = 'cithit/taylorw8'                                                                    //<------change this
+        DOCKER_IMAGE = 'cithit/clarkap2'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
-        GITHUB_URL = 'https://github.com/miamioh-cit/225-lab3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('taylorw8-test-credentials')                                                         //<------change this
+        GITHUB_URL = 'https://github.com/clarkap2/225-lab3-5'                                          //<------change this
+        KUBECONFIG = credentials('clarkap2-225')                                                         //<------change this
     }
 
     stages {
